@@ -8,8 +8,8 @@
   
 ![](images/jenkins.png)
 
-- CICD 
+  ##### Contiounus Integration Continuous Delivery/Deployment 
 ![](images/CICD.png)
 
-- Let's break it down 
+###### Let's break it down 
   ![](images/cicd_jenkins.png)
