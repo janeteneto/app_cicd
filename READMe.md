@@ -1,8 +1,9 @@
-# Let's create a Continuous Integration and Continuous Delivery/Deployment (CICD) pipeline
+# Let's build a Continuous Integration and Continuous Delivery/Deployment (CICD) Pipeline
 ## Jenkins
 ### Webhooks with Git-hub
 #### Automated Testing using Jenkins
-#### Deployment on AWS EC2
+#### Automated Deployment on AWS EC2 for 2Tier architecture - Nodejs app and Mongodb  
+
 
 - Jenkins Workflow
   
