@@ -21,11 +21,15 @@
 ```
 # we need to by pass the key asking stage with below command:
 ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2-ip << EOF	
+# copy the the code
+# run your provision.sh to install node with required dependencies for app instance - same goes for db instance (ensure to double check if node and db are actively running)
 
 # create an env to connect to db
 # navigate to app folder
 # kill any existing pm2 process just in case
 # launch the app
+
+# To debug ssh into your ec2 and run the above commands
     
 
 EOF
