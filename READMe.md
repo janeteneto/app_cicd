@@ -34,3 +34,25 @@ ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2-ip << EOF
 
 EOF
 ```
+## Jenkins CI Lab - Solution
+
+##### Steps
+
+##### Source Code Management
+
+1. Set Branches to Build to develop
+2. Under additional behaviours click add and "Merge before build"
+3. name of repo "origin"
+4. branch to merge "main"
+
+### Post-Build Actions
+
+#### Git Publisher
+
+1. Add Post Build Action
+2. Git Publisher
+3. Push Only if Build Succeeds
+4. Merge Results
+
+--- 
+Tigger deployment job if the merge was successfull
