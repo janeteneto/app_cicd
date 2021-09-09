@@ -28,6 +28,7 @@ ssh -A -o "StrictHostKeyChecking=no" ubuntu@ec2-ip << EOF
 # navigate to app folder
 # kill any existing pm2 process just in case
 # launch the app
+nohup node app.js > /dev/null 2>&1 & - use this command to run node app in the background
 
 # To debug ssh into your ec2 and run the above commands
     
