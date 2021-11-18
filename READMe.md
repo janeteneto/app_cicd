@@ -54,6 +54,7 @@ EOF
 2. Git Publisher
 3. Push Only if Build Succeeds
 4. Merge Results
+5. change made on dev brance
 
 --- 
 Tigger deployment job if the merge was successfull
