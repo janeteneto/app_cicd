@@ -7,7 +7,7 @@
 - testing CI  from localhost
 - git flow test 1
 - Jenkins Workflow
-- feature added from localhost  
+- feature added from localhost  new attempt
 ![](images/jenkins.png)
 
   ##### Contiounus Integration Continuous Delivery/Deployment 
